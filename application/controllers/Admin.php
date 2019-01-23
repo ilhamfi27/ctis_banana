@@ -6,6 +6,11 @@ class Admin extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('admin/admin');
+        $this->load->view('resources/headeradmin');
+        $this->load->view('resources/sideradmin');
+
+        $this->load->view('admin/dashboard');
+
+        $this->load->view('resources/footeradmin');
     }
 }
