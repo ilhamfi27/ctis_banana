@@ -1,18 +1,26 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+defined('BASEPATH') or exit('No direct script access allowed');
 
-    public function __construct() {
-		parent::__construct();
-		$this->load->model('district');
+class Welcome extends CI_Controller
+{
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('district');
     }
 
-	public function index(){
-		$data["kecamatan"] = $this->district->some_district(4)->result();
+    public function index()
+    {
+        $data['kecamatan'] = $this->district->some_district(4)->result();
 
-		$this->load->view('resources/header');
-		$this->load->view('welcome_page', $data);
-		$this->load->view('resources/footer');
-	}
+        $this->load->view('resources/header');
+        $this->load->view('welcome_page', $data);
+        $this->load->view('resources/footer');
+    }
+
+    public function admin()
+    {
+        $this->load->view('admin');
+    }
 }
