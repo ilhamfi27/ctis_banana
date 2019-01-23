@@ -9,19 +9,24 @@
             <input type="hidden" name="category" value="<?php echo $status; ?>">
             <div class="col-md-8 col-md-offset-2">
                 <div class="form-group">
-                    <label for="" class="col-md-3 control-label">Daerah</label>
+                    <label for="" class="col-md-3 control-label">Lokasi/Daerah Terdekat</label>
                     <div class="col-md-9">
                         <select name="daerah" class="form-control">
-                            <option value="">Bandung</option>
-                            <option value="">Cimahi</option>
-                            <option value="">Bogor</option>
+                            <?php foreach($districts as $district): ?>
+                                <option value="<?php echo $district->ID; ?>"><?php echo $district->lokasi; ?></option>
+                            <?php endforeach; ?>
                         </select>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="" class="col-md-3 control-label">Jam</label>
                     <div class="col-md-9">
-                        <input type="text" name="" class="form-control">
+                        <div class='input-group date' id='report-hour-picker-js'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-time"></span>
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group">
@@ -38,6 +43,5 @@
                 </div>
             </div>
         </form>
-
     </div>
 </div>

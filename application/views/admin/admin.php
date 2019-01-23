@@ -8,7 +8,7 @@
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
     <!--external css-->
-    <link href="<?php echo base_url('assets/css/font-awesome.css'); ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/vendor/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" />
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url('assets/css/styleadmin.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/style-responsiveadmin.css'); ?>" rel="stylesheet">
@@ -34,11 +34,11 @@
                 <!-- sidebar menu start-->
                 <ul class="sidebar-menu" id="nav-accordion">
                     <p class="centered">
-                        <a href="profile.html"><img src="img/ui-sam.jpg" class="img-circle" width="80"></a>
+                        <a href="profile.html"><img src="<?php echo base_url('assets/img/user.png'); ?>" class="img-circle" width="80"></a>
                     </p>
                     <h5 class="centered">Admin</h5>
                     <li class="mt">
-                        <a href="index.html">
+                        <a href="admin.php">
                             <i class="fa fa-dashboard"></i>
                             <span>Dashboard</span>
                         </a>
@@ -76,8 +76,8 @@
         </aside>
     </section>
     <script src=<?php echo base_url('assets/jquery/jquery.min.js'); ?>></script>
-    <script src=<?php echo base_url('assets/common-scripts.js'); ?>></script>
-    <script class="include" type="text/javascript" src=<?php echo base_url('assets/jqueryjquery.dcjqaccordion.2.7.js'); ?>></script>
+    <script src=<?php echo base_url('assets/venndor/common-scripts.js'); ?>></script>
+    <script class="include" type="text/javascript" src=<?php echo base_url('assets/vendor/jquery/jquery.dcjqaccordion.2.7.js'); ?>></script>
 </body>
 
 </html>
