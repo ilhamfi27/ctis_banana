@@ -15,7 +15,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </a>
             </li>
             <li class="sub-menu">
-                <a href="">
+                <a href="#lokasi">
                     <i class="fa fa-flag"></i>
                     <span>Set Lokasi</span>
                 </a>
@@ -29,7 +29,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
             </li>
             <li class="sub-menu">
-                <a href="">
+                <a href="#twitter">
                     <i class="fa fa-twitter"></i>
                     <span>cek twitter</span>
                 </a>

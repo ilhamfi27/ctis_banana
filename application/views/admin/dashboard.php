@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
     <section id="main-content">
-        <section class="wrapper">
+        <section id="set lokasi" class="wrapper">
             <div class="row">
                 <div class="col-lg-9 main-chart">
                     <!--main-->
@@ -41,7 +41,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                     <!-- end main -->
-                    <div class='sk-ww-twitter-hashtag-feed' data-embed-id='19130'></div><script src='https://www.sociablekit.com/app/embed/twitter-hashtag-feed/widget.js'></script>
+                    <div id="twitter" class='sk-ww-twitter-hashtag-feed' data-embed-id='19130'></div><script src='https://www.sociablekit.com/app/embed/twitter-hashtag-feed/widget.js'></script>
                 </div>
             </div>
         </section>
