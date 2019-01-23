@@ -6,5 +6,10 @@ class Districts extends CI_Controller {
 		$this->load->view('resources/header');
 		$this->load->view('districts/detail');
 		$this->load->view('resources/footer');
+
+
+
+
+    
 	}
 }
