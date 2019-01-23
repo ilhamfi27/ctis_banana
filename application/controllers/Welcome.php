@@ -31,9 +31,4 @@ class Welcome extends CI_Controller
         $data = $this->weather_station_api->get_all_sensors();
         print_r($data);
     }
-
-    public function admin()
-    {
-        $this->load->view('admin/admin');
-    }
 }
