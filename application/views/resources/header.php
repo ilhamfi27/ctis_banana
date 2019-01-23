@@ -29,6 +29,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- Styled CSS -->
 	<link href="<?php echo base_url("assets/css/banana-app.css"); ?>" rel="stylesheet">
 
+    <!-- Bootstrap Datetimepicker CSS -->
+	<link href="<?php echo base_url("assets/vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css"); ?>" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
