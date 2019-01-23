@@ -18,9 +18,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url('assets/css/styleadmin.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/style-responsiveadmin.css'); ?>" rel="stylesheet">
+    
     <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- Custom Theme files -->
-    <link href="<?php base_url('assets/css/style.css'); ?>" rel='stylesheet' type='text/css' />
+    <link href="<?php echo base_url('assets/css/styleweather.css'); ?>" rel='stylesheet' type='text/css' />
     <!-- Custom Theme files -->
     <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
     <!-- Custom Theme files -->

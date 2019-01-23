@@ -9,14 +9,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="main effect2">
                         <div class="climate">
                             <div class="sunny">
-                                <img src="<?php base_url('assets/img/bigsun.png'); ?>" alt="">
+                                <img src="<?php echo base_url('assets/img/bigsun.png'); ?>" alt="">
                                 <h3>To day Weather </h3>
                                 <h2>32°</h2>
                             </div>
                             <div class="west-chance">
                                 <div class="west-grids">
                                     <div class="west-left">
-                                        <img src="<?php base_url('assets/img/pic2.png'); ?>" alt="">
+                                        <img src="<?php echo base_url('assets/img/pic2.png'); ?>" alt="">
                                     </div>
                                     <div class="west-right">
                                         <h3>14</h3>
@@ -29,7 +29,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </div>
                                 <div class="west-grids">
                                     <div class="west-left">
-                                        <img src=<?php base_url('ssets/img/umbre.png'); ?> alt="">
+                                        <img src=<?php echo base_url('ssets/img/umbre.png'); ?> alt="">
                                     </div>
                                     <div class="west-right">
                                         <h4>12%<span>CHANCE</span></h4>
@@ -38,24 +38,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </div>
                                 <div class="clear"></div>
                             </div>
-                            <div class="shades">
-                                <h3>26° <span>MIN</span></h3>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <div class="clear"></div>
-                                </ul>
-                                <h3>34°<span>MAX</span></h3>
-                                <div class="clear"></div>
-                            </div>
-
                         </div>
                     </div>
+                    <!-- end main -->
+                    
                 </div>
             </div>
         </section>
     </section>
+    
