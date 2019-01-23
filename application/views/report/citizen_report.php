@@ -6,7 +6,7 @@
         </div>
 
         <form action="<?php echo site_url("report/send_report"); ?>" method="post" class="form-horizontal white-label">
-            <input type="hidden" name="category" value="<?php echo $status; ?>">
+            <input type="hidden" name="kategori_report" value="<?php echo $status; ?>">
             <div class="col-md-8 col-md-offset-2">
                 <div class="form-group">
                     <label for="" class="col-md-3 control-label">Lokasi/Daerah Terdekat</label>
@@ -22,7 +22,7 @@
                     <label for="" class="col-md-3 control-label">Jam</label>
                     <div class="col-md-9">
                         <div class='input-group date' id='report-hour-picker-js'>
-                            <input type='text' class="form-control" />
+                            <input type='text' name="jam_report" class="form-control" />
                             <span class="input-group-addon">
                                 <span class="glyphicon glyphicon-time"></span>
                             </span>

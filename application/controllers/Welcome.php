@@ -13,8 +13,7 @@ class Welcome extends CI_Controller
 
     public function index()
     {
-        $data['kecamatan'] = $this->district->some_district(4)->result();
-
+        $data['daerah'] = $this->weather_station_api->data_for_today();
         $this->load->view('resources/header');
         $this->load->view('welcome_page', $data);
         $this->load->view('resources/footer');
@@ -22,13 +21,7 @@ class Welcome extends CI_Controller
 
     public function show_row()
     {
-        $data = $this->weather_station_api->get_all_sensors();
-        print_r($data);
-    }
-
-    public function show_row()
-    {
-        $data = $this->weather_station_api->get_all_sensors();
+        $data = $this->weather_station_api->data_for_today();
         print_r($data);
     }
 }
