@@ -38,7 +38,7 @@
                     </p>
                     <h5 class="centered">Admin</h5>
                     <li class="mt">
-                        <a href="index.html">
+                        <a href="admin.php">
                             <i class="fa fa-dashboard"></i>
                             <span>Dashboard</span>
                         </a>
